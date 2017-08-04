@@ -1,4 +1,4 @@
-// Copyright © 2017 NAME HERE <EMAIL ADDRESS>
+// Copyright © 2017 Charles Burton charles.d.burton@gmail.com
 // Licensed under the Apache License, Version 2.0 (the "License");
 // you may not use this file except in compliance with the License.
 // You may obtain a copy of the License at
@@ -34,8 +34,8 @@ var (
 // radiusCmd represents the radius command
 var radiusCmd = &cobra.Command{
 	Use:   "radius",
-	Short: "JumpCloud CLI",
-	Long:  `Control your JumpCloud environment from the command line!`,
+	Short: "Create Update or Delete Radius Server",
+	Long:  ``,
 	Run: func(cmd *cobra.Command, args []string) {
 		if apiKey == "" || serverName == "" {
 			log.Println("API Key or Name not set!")
